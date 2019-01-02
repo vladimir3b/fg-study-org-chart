@@ -1,0 +1,33 @@
+{
+  "name": "fg-study-org-chart",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/index",
+    "build": "webpack --watch"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^4.1.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.28",
+    "bootstrap": "^4.2.1",
+    "css-loader": "^2.0.2",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
